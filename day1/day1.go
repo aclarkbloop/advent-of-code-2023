@@ -16,7 +16,7 @@ func main() {
 
 // #1
 func p1() {
-	file, err := os.Open("inputs/day1.txt")
+	file, err := os.Open("../inputs/day1.txt")
 	if err != nil {
 		log.Fatalf("unable to read file: %v", err)
 	}
@@ -45,7 +45,7 @@ func p1() {
 
 // #2
 func p2() {
-	file, err := os.Open("inputs/day1.txt")
+	file, err := os.Open("../inputs/day1.txt")
 	if err != nil {
 		log.Fatalf("unable to read file: %v", err)
 	}
